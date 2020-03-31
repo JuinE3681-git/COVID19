@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
-token = "NjgyMDU0NjI4NDg5Mjk3OTUw.XlXa6Q.5B182Dl5NSis0xiSiLCNdz3RfPM"
+token = "token"
 
 client = discord.Client()
 
