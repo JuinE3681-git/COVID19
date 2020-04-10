@@ -34,5 +34,5 @@ async def on_message(message):
     if message.content == "=도움":
         await message.channel.send('=도움과 =코로나 명령어가 있습니다')
 
-access_token = os.environ["BOT_TOKEN"]
+access.token = os.environ["BOT_TOKEN"]
 client.run(access_token)
